@@ -1,0 +1,11 @@
+rev_1:"Maccor Cycling":initial variables and main for-loop.
+rev_2:"MAC_AT_rev_2":some testing using Mallory's data, experimental
+                     implementation in NVO Cycling for XPD Aug2020!
+rev_3:"MAC_AT_rev_3":implementation and addition of a percent counter 
+                     display. addition of 0.5s to script execution. 
+                     removed code dummy and test dummy lines.
+ 
+ 
+    TBD:   1. export useful columns to NumPy array (mAmphr,ES,State).
+           2. Perform operations on NumPy array and add back to df.
+           
