@@ -27,7 +27,7 @@ t_start = time.time()
 active_mass = [0.0044]
 
 #Data imported as Pandas dataframe. Enter CSV file name.
-df = pd.read_csv('gs_236_010h.078.csv',skiprows=1)
+df = pd.read_csv('MV_sample.csv',skiprows=1)
 
 #uncorrected capacity column
 for index,row in df.iterrows():
@@ -89,7 +89,7 @@ for index,row in df.iterrows():
 perc_counter = 0
 
 #Create CSV file with two appended columns: uncorrected and corrected capacity
-df.to_csv("output_gs_236_010h.078.csv")
+df.to_csv("output_MV_sample.csv")
 
 #Plot V vs. corrected capacity
 plt.plot(df.spec_cap_cor,df.Volts)
